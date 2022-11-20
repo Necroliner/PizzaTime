@@ -1,0 +1,247 @@
+body {
+    background-color: #f6ecec;
+    display: grid;
+    place-items: center;
+    font-family: 'Fira Sans', sans-serif;
+    caret-color: transparent;
+}
+
+.whiteBox {
+    background-color: white;
+    width: 80vh;
+    height: 80vh;
+    border-radius: 30px;
+    margin-top:5vh;
+    
+}
+
+a, h1, h2, h3, p {
+    all: unset;
+}
+
+
+.button {
+    color: #FFF;
+    background-color: #EC0000;
+    border-radius: 100vmax;
+    font-weight: 400;   
+    padding: 5px 15px;
+}
+
+.button:hover {
+    background-color: #e96060;
+}
+
+/* Navigation bar */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1vh 0;
+    display: flex;
+    align-items: center;
+    padding: 0 2vw;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    margin: 0;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: -10px;
+}
+
+
+nav {
+    font-weight: 400;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menuLink {
+    
+    margin-right: 5%;
+}
+
+#home {
+    color: #EC0000;
+    font-weight: 500;
+}
+
+#SignIn {
+    padding: 10px 20px;
+    min-width: 35px;
+    margin-right: 4vw;
+}
+
+/* Main */
+
+main h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+main h3 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 1vh;
+}
+
+main a {
+    margin-top: 2vh;
+    font-size: 12px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: linear-gradient(-90deg, #fff0, #fff0 20%, #fff 92%, #fff ), url("assets/Pizza.jpg") no-repeat right;
+    height: 30vh;
+    padding-left: 3vw;
+    background-size: 50%;
+}
+
+/* Recommended */
+.recommended {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recommendedTitle {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 2vh 0;
+}
+
+.pizzas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1vw;
+    padding: 0 2vw;
+    align-items: flex-end;
+    height: 15vh;
+}
+
+.pizzas img {
+    border-radius: 50%;
+    width: 80%;
+}
+
+.pizza {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #BDBDBD;
+    border-radius: 90px 90px 15px 15px;
+    width: 6vw;
+    padding: 2vh;
+}
+
+.pizza h2 {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 5% 0;
+} 
+
+.pizza h3 {
+    font-weight: 300;
+    font-size: 6px;
+} 
+
+.pizza a {
+    font-weight: 500;
+    font-size: 8px;
+    width: 100%;
+    padding: 5% 0;
+}
+
+.price {
+    margin: 2vh 0;
+    font-weight: 600;
+    font-size: 15px;
+    color: #05A84B;
+}
+
+select {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 8px;
+    width: 100%;
+    padding: 5px;
+    font-weight: 400;
+    border-radius: 100vmax;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 4vh;
+}
+
+footer img {
+    width: 110px;
+}
+
+footer img:first-of-type {
+    border-right: 0.5px solid #072E45;
+    padding-right: 8px;
+}
+
+/* Leaves and tomatoes */
+
+#tomato1 {
+    position: absolute;
+    top: 40vh;
+    left: 135vh;
+    width: 150px;
+    height: 150px;
+    z-index: 10;
+}
+
+#tomato2 {
+    position: absolute;
+    top: 77vh;
+    left: 55vh;
+    width: 125px;
+    height: 125px;
+    z-index: -1;
+}
+
+#basilic1 {
+    position: absolute;
+    top: 4vh;
+    left: 90vh;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+}
+
+#basilic2 {
+    position: absolute;
+    top: 83vh;
+    left: 138vh;
+    width: 125px;
+    height: 125px;
+    z-index: 1;
+}
+
+#basilic3 {
+    position: absolute;
+    top: 50vh;
+    left: 55vh;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+}
+
